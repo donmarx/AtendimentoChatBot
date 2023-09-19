@@ -1,0 +1,31 @@
+{
+    "misc":["<button class='message sender' id='outros'>Outro</button>",
+            "<button class='message sender' id='voltar'>Voltar</button>"],
+
+    "recepcao":  ["<button class='message sender' id='visita'>Agende uma Visita - Conheça o Colégio</button>",
+                  "<button class='message sender' id='achados'>Achados e Perdidos</button>",
+                  "<button class='message sender' id='atendimentoCoord'>Agendar Atendimento com Coordenação</button>",
+                  "<button class='message sender' id='atendimentoRotinas'>Atendimento sobre Dúvidas Gerais e Rotinas</button>",
+                  "<button class='message sender' id='atestados'>Atestados Médicos</button>",
+                  "<button class='message sender' id='historico'>Entrega de Históricos Escolares</button>",
+                  "<button class='message sender' id='horarios'>Horários de Aulas</button>",
+                  "<button class='message sender' id='infoCriancas'>Informações sobre as Crianças</button>",
+                  "<button class='message sender' id='atvExtras'>Inscrições e Dúvidas sobre Atividades Extras</button>",
+                  "<button class='message sender' id='libTerceiros'>Liberação de Alunos com Terceiros</button>",
+                  "<button class='message sender' id='problemasPortal'>Problemas com Usuário e Senha Portal/ Aplicativo</button>"],
+
+    "financeiro":  ["<button class='message sender' id='acordos'>Acordos Financeiros</button>",
+                  "<button class='message sender' id='boletosVencidos'>Atualização de Boletos Vencidos</button>",
+                  "<button class='message sender' id='boletosUnificados'>Boletos Unificados</button>",
+                  "<button class='message sender' id='quitacaoDebito'>Declarações de Quitação De Débitos</button>",
+                  "<button class='message sender' id='duvidasValores'>Dúvidas sobre Valores Cobrados</button>",
+                  "<button class='message sender' id='encaminharBoletos'>Encaminhar Boletos</button>",
+                  "<button class='message sender' id='parcelasAtraso'>Informação sobre Parcelas em Atraso</button>",
+                  "<button class='message sender' id='matriculasProporcionais'>Matrículas e Mensalidades Proporcionais</button>"],
+
+    "recursosHumanos":  ["<button class='message sender' id='acolhimentoEstagio'>Acolhimento do Candidato a Estágio</button>",
+                  "<button class='message sender' id='duvidaEstagio'>Dúvidas Sobre Estágios</button>",
+                  "<button class='message sender' id='curriculo'>Encaminhamento de Currículo</button>"]
+                  
+        
+}
