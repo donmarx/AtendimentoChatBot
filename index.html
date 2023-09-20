@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images\simbolo-ColegioOpcao.png">
-    <script type="text/javascript" src=”scripts.js”></script>
+    <script type="text/javascript" src="scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
     <title>Assistência Colégio Opção</title>
 </head>
 <body>
@@ -24,21 +25,23 @@
             <div class="message sender">
                 <p class="message-text">Por favor, escolha uma das opções abaixo para direcionarmos sua solicitação:</p>
             </div>
-            <button class="message sender" id="recepcao" onclick="addDivToContainer()">
-                Recepção
-            </button>
-            <button class="message sender" id="financeiro">
-                Financeiro
-            </button>
-            <button class="message sender" id="rh">
-                Recursos Humanos
-            </button>
+
+            <div class="message sender">
+            <button  id="recepcao" onclick="addDivToContainer(this.id)"> Recepção </button> <br>
+
+            <button id="financeiro" onclick="addDivToContainer(this.id)"> Financeiro </button> <br>
+
+            <button id="rh" onclick="addDivToContainer(this.id)"> Recursos Humanos </button>
+        
+        </div> 
+            
 
             <!-- Add more messages here -->
         </div>
 
         <footer class="app-box">
-            <a href="https://ensinoopcao.com.br/opcao-2023/" class="login" title="Login"></a>
+            <!--<a href="https://ensinoopcao.com.br/"><img src="images\simbolo-ColegioOpcao.png" class="link"></a>
+            <a href="https://ensinoopcao.com.br/"><img src="images\simbolo-ColegioOpcao.png" class="link"></a> -->
         </footer>
     </div>
 </body>
