@@ -1,3 +1,4 @@
+<<<<<<< HEAD
   function addDivToContainer(clickedId) {
       var newDiv = document.createElement("div");
       newDiv.setAttribute('class', 'message sender');
@@ -18,6 +19,13 @@
           "algo de errado"
       }
       var container = document.getElementById("container");
+=======
+function addDivToContainer() {
+      const newDiv = document.createElement("div");
+      newDiv.setAttribute('class', 'message sender');
+      newDiv.textContent = "clicado";
+      const container = document.getElementById("container");
+>>>>>>> 9fb60489f2ff05b9b438cd7fc5a8c76fad4f4c56
       container.appendChild(newDiv);
 
   }
