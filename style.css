@@ -16,6 +16,17 @@ header img {
     height: auto; /* Maintain aspect ratio */
 }
 
+@keyframes messageRise {
+  0% {
+    transform: translateY(20px); /* Start slightly below the screen */
+    opacity: 0; /* Initially hidden */
+  }
+  100% {
+    transform: translateY(0); /* End at the normal position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
 .phone-shape {
     background-color: #0000001c;
     width: 50%; /* Adjust the width of the phone shape */
@@ -44,12 +55,12 @@ header img {
 }
 
 .link{
-  width: 30%; 
+  width: 40px; 
   transition: 0.5s 0.1s;
 }
 
 .link:hover{
-  width: 33%; 
+  width: 44px; 
   transition: 0.5s 0.1s;
 }
 ::-webkit-scrollbar {
@@ -69,6 +80,7 @@ header img {
   }
 
 .message-container {
+    animation: messageRise 1s ease-in-out;
     vertical-align: top;
     overflow-y: scroll;
     width: 80%;
@@ -83,7 +95,9 @@ header img {
     max-width: 70%;
 }
 
+
 .message.sender {
+    animation: messageRise 1.5s ;
     background-color: #007bff; /* Sender's message color */
     float: right;
 }
@@ -111,6 +125,7 @@ button {
     border-radius: 7px;
     padding: 10px;
     cursor: pointer;
+    float: right;
 
     color: var(--color);
     background: 
